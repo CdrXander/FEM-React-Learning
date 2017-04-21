@@ -10,7 +10,8 @@
     "update-test": "npm run test -- -u",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint": "eslint js/**/*.js server.js",
+    "standard":"standard",
+    "standard-fix":"standard --fix",
     "watch": "webpack --watch"
   },
   "dependencies": {
@@ -53,6 +54,7 @@
     "json-loader": "0.5.4",
     "react-addons-test-utils": "15.3.2",
     "react-test-renderer": "15.3.2",
+    "standard": "^10.0.2",
     "style-loader": "0.13.1",
     "webpack": "2.1.0-beta.25",
     "webpack-dev-server": "1.16.2"
